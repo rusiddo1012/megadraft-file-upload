@@ -1,0 +1,11 @@
+version: '3'
+services:
+  megadraft-file-upload:
+    build: .
+    container_name: megadraft-file-upload
+    tty: true
+    ports:
+      - "3000:3000"
+    volumes:
+      - ../:/src
+    working_dir: /src

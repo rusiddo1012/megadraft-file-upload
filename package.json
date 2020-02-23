@@ -1,0 +1,25 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "lib/plugin.js",
+  "repository": "https://github.com/rusiddo1012/megadraft-file-upload.git",
+  "author": "clepsydra <jubeat.taiko.1012@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "4.9.3",
+    "aws-amplify": "1.2.4",
+    "megadraft": "0.6.11",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-uuid": "1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.4",
+    "@babel/preset-env": "7.8.4",
+    "@babel/preset-react": "7.8.3",
+    "babel-cli": "6.26.0",
+    "babel-loader": "8.0.6",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11"
+  }
+}

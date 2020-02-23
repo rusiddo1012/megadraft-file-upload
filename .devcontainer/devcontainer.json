@@ -1,0 +1,6 @@
+{
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "megadraft-file-upload",
+    "workspaceFolder": "/src",
+    "extensions": []
+}
