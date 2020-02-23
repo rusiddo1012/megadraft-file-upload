@@ -23,9 +23,5 @@ module.exports = {
   },
   resolve: {
     extensions: ['*', '.mjs', '.js', '.json', '.gql', '.graphql', '.jsx']
-  },
-  devServer: {
-    inline: true,
-    contentBase: publidDir
   }
  }; 
