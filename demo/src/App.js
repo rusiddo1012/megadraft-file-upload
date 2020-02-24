@@ -4,7 +4,7 @@ import 'megadraft/dist/css/megadraft.css';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 
-// import file from '../../dist/megadraft-file-upload.js'
+import file from '../../src/plugin.js'
 
 const App = () => {
   const [editorState, setEditorState] = useState(editorStateFromRaw(DEFAULT))
@@ -15,6 +15,7 @@ const App = () => {
 
   return (
     <>
+      {console.log(file)}
       <Container maxWidth='xs'>
         <h1>DEMO</h1><br/>
         <Grid container spacing={5}>
@@ -22,7 +23,7 @@ const App = () => {
             editorState={editorState}
             onChange={(context) => setEditorState(context)}
             onAction={Action}
-            plugin={[]}
+            plugins={[file]}
           />
         </Grid>
       </Container>
