@@ -25,7 +25,7 @@ ReactDOM.render(<Example />, document.getElementById("root"));
 ```
 
 ## Extension Example
-#### [react-dropzone](https://github.com/react-dropzone/react-dropzone)を使って、ドラッグ&ドロップでのアップロードを実現しまう。
+#### [react-dropzone](https://github.com/react-dropzone/react-dropzone)を使って、ドラッグ&ドロップでのアップロードを実現する。
 
 ```javascript
 import React, { useState, useCallback, useRef } from 'react';
