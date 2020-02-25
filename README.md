@@ -67,7 +67,7 @@ const Example = () => {
 }
 ```
 
-#### Amazon S3へ画像ファイルを保存します。
+#### [Amazon S3](https://aws.amazon.com/jp/s3/)へ画像ファイルを保存します。
 利用する場合は、事前に[aws-amplify](https://github.com/aws-amplify/amplify-js)の設定を行ってください。
 
 ```javascript
