@@ -25,7 +25,7 @@ ReactDOM.render(<Example />, document.getElementById("root"));
 ```
 
 ## Extension Example
-このプラグインと[react-dropzone](https://github.com/react-dropzone/react-dropzone)を使って、ドラッグ&ドロップでのアップロードを実現できます。
+#### [react-dropzone](https://github.com/react-dropzone/react-dropzone)を使って、ドラッグ&ドロップでのアップロードを実現しまう。
 
 ```javascript
 import React, { useState, useCallback, useRef } from 'react';
@@ -46,7 +46,7 @@ const Example = () => {
     reader.onabort = () => console.log('file reading was aborted');
     reader.onerror = () => console.log('file reading has failed');
     reader.onload = () => {
-      // Megadraftコンポーネントの外からファイルをアップロードする
+      // Megadraftコンポーネントの外からファイルをアップロードする。
       addFile(editorEl, editorState, reader.result)
     };
     reader.readAsDataURL(file);
@@ -67,7 +67,7 @@ const Example = () => {
 }
 ```
 
-また、画像ファイルを物理ファイルで保存するために、Amazon S3を利用できます。
+#### Amazon S3へ画像ファイルを保存します。
 利用する場合は、事前に[aws-amplify](https://github.com/aws-amplify/amplify-js)の設定を行ってください。
 
 ```javascript
@@ -75,7 +75,7 @@ import { uploadToS3 } from 'megadraft-file-upload';
 
 const submit = async() => {
   let j_editorState = editorStateToJSON(editorState);
-  # 第2引数には、ファイルを保存するS3Bucketのディレクトリ名を指定します。
+  # 第2引数には、ファイルを保存するS3Bucketのディレクトリ名を指定する。
   await uploadToS3(j_editorState, 'picture');
 }
 ```
