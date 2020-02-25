@@ -1,6 +1,6 @@
 {
   "name": "megadraft-file-upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin to upload megadraft files",
   "main": "lib/plugin.js",
   "repository": "https://github.com/rusiddo1012/megadraft-file-upload.git",
